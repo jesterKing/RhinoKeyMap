@@ -169,7 +169,7 @@ keyconfig_data = \
     ("pose.relax", {"type": 'E', "value": 'PRESS', "alt": True}, None),
     ("pose.breakdown", {"type": 'E', "value": 'PRESS', "shift": True}, None),
     ("wm.call_menu",
-     {"type": 'SPACE', "value": 'PRESS', "alt": True},
+     {"type": 'RIGHTMOUSE', "value": 'PRESS', "shift": True, "ctrl": True, "alt": True},
      {"properties":
       [("name", 'VIEW3D_MT_pose_specials'),
        ],
