@@ -16,3 +16,5 @@ the `Edit... > Preferences > Input` click path.
 * dolly view: Alt-RMB
 
 * mesh context menu (edit mode): Ctrl-Shift-Alt-RMB
+
+* pose context menu: Ctrl-Shift-Alt-RMB
