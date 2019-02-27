@@ -1,9 +1,15 @@
-# RhinoKeyMap
-Keymap geared towards Rhino users
+# RhinoKeyMap & UI Theme
+Keymap geared towards Rhino users. The theme provides Rhino users with more
+familiar looking UI.
 
-# Installation
+# Installation of key map
 Download the rhino3d_km.py file and import as key configuration by following
-the `Edit... > Preferences > Input` click path.
+the `Edit > Preferences... > Input` click path.
+
+# Installation of UI theme
+Download the rhino_v6.xml file and import as UI theme by following the
+`Edit > Preferences... > Themes` click path. Use the `Install...` button to
+select and install the .xml file.
 
 # Selection
 * LMB
