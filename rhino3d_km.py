@@ -3570,14 +3570,6 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
-    ("transform.translate",
-     {"type": 'EVT_TWEAK_R', "value": 'ANY', "shift": True},
-     {"properties":
-      [("cursor_transform", True),
-       ("release_confirm", True),
-       ],
-      },
-     ),
     ("view3d.localview", {"type": 'NUMPAD_SLASH', "value": 'PRESS'}, None),
     ("view3d.localview", {"type": 'SLASH', "value": 'PRESS'}, None),
     ("view3d.localview_remove_from", {"type": 'M', "value": 'PRESS'}, None),
@@ -4097,7 +4089,7 @@ keyconfig_data = \
       },
      ),
     ("transform.translate", {"type": 'G', "value": 'PRESS'}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY', "alt": True}, None),
     ("transform.rotate", {"type": 'R', "value": 'PRESS'}, None),
     ("transform.resize", {"type": 'S', "value": 'PRESS'}, None),
     ("transform.bend", {"type": 'W', "value": 'PRESS', "shift": True}, None),
